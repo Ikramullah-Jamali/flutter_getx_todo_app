@@ -1,17 +1,54 @@
-# my_todo_app_practice
+# Flutter GetX ToDo App
 
-A new Flutter project.
+A clean, responsive task management application built with **Flutter** and **GetX** for reactive state management and multi-screen navigation.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Full CRUD Operations:** Create new tasks, view all items, edit existing tasks, and delete completed or unwanted items.
+- **Reactive State Management:** Powered by **GetX** (`GetxController` and `Obx`) for instant UI updates without boilerplate code.
+- **Real-Time Search:** Filter tasks dynamically as you type in the search bar.
+- **Task Progress Tracker:** Live completion counter displaying completed tasks out of the total list.
+- **Multi-Screen Navigation:** Smooth navigation between the main dashboard (`HomeScreen`) and the task creation/editing screen (`TodoScreen`).
+- **Responsive Layout:** Constrained and centered layout that adapts cleanly across mobile devices and wider web/desktop viewports.
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```text
+lib/
+├── controllers/
+│   └── todo_controller.dart   # GetX state management, CRUD logic, and search filtering
+├── models/
+│   └── Todo.dart              # Todo data model and initial sample data
+├── screens/
+│   ├── home_screen.dart       # Main dashboard with search bar, task list, and progress counter
+│   ├── todo_items.dart        # Reusable task card widget with toggle and delete actions
+│   └── Todo_screen.dart       # Add and edit task screen
+└── main.dart                  # App entry point configured with GetMaterialApp
+Tech Stack
+Framework: Flutter (Dart)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+State Management & Routing: GetX (get)
+
+UI Components: Material Design
+
+Getting Started
+Clone the repository:
+
+Bash
+git clone [https://github.com/Ikramullah-Jamali/flutter_getx_todo_app.git](https://github.com/Ikramullah-Jamali/flutter_getx_todo_app.git)
+Navigate to the project directory:
+
+Bash
+cd flutter_getx_todo_app
+Install dependencies:
+
+Bash
+flutter pub get
+Run the application:
+
+Bash
+flutter run
+Author
+Ikramullah Jamali
+
+GitHub: @Ikramullah-Jamali
