@@ -13,7 +13,6 @@ A clean, responsive task management application built with **Flutter** and **Get
 
 ## Project Structure
 
-```text
 lib/
 ├── controllers/
 │   └── todo_controller.dart   # GetX state management, CRUD logic, and search filtering
@@ -24,6 +23,7 @@ lib/
 │   ├── todo_items.dart        # Reusable task card widget with toggle and delete actions
 │   └── Todo_screen.dart       # Add and edit task screen
 └── main.dart                  # App entry point configured with GetMaterialApp
+
 Tech Stack
 Framework: Flutter (Dart)
 
