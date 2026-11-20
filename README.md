@@ -34,7 +34,7 @@ UI Components: Material Design
 Getting Started
 Clone the repository:
 
-git clone [https://github.com/Ikramullah-Jamali/flutter_getx_todo_app.git](https://github.com/Ikramullah-Jamali/flutter_getx_todo_app.git)
+git clone https://github.com/Ikramullah-Jamali/flutter_getx_todo_app.git
 Navigate to the project directory:
 
 cd flutter_getx_todo_app
