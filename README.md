@@ -23,15 +23,15 @@ lib/
 │   ├── todo_items.dart        # Reusable task card widget with toggle and delete actions
 │   └── Todo_screen.dart       # Add and edit task screen
 └── main.dart                  # App entry point configured with GetMaterialApp
-
-Tech Stack
+```
+## Tech Stack
 Framework: Flutter (Dart)
 
 State Management & Routing: GetX (get)
 
 UI Components: Material Design
 
-Getting Started
+### Getting Started
 Clone the repository:
 
 git clone https://github.com/Ikramullah-Jamali/flutter_getx_todo_app.git
@@ -44,7 +44,7 @@ flutter pub get
 Run the application:
 
 flutter run
-```
+
 ## Author
 ### Ikramullah Jamali
 
