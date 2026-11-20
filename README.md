@@ -12,7 +12,7 @@ A clean, responsive task management application built with **Flutter** and **Get
 - **Responsive Layout:** Constrained and centered layout that adapts cleanly across mobile devices and wider web/desktop viewports.
 
 ## Project Structure
-
+```text
 lib/
 ├── controllers/
 │   └── todo_controller.dart   # GetX state management, CRUD logic, and search filtering
@@ -44,7 +44,7 @@ flutter pub get
 Run the application:
 
 flutter run
-
+```
 ## Author
 ### Ikramullah Jamali
 
