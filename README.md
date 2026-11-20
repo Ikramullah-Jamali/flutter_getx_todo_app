@@ -34,21 +34,17 @@ UI Components: Material Design
 Getting Started
 Clone the repository:
 
-Bash
 git clone [https://github.com/Ikramullah-Jamali/flutter_getx_todo_app.git](https://github.com/Ikramullah-Jamali/flutter_getx_todo_app.git)
 Navigate to the project directory:
 
-Bash
 cd flutter_getx_todo_app
 Install dependencies:
 
-Bash
 flutter pub get
 Run the application:
 
-Bash
 flutter run
-Author
-Ikramullah Jamali
 
-GitHub: @Ikramullah-Jamali
+## Author
+### Ikramullah Jamali
+
